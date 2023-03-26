@@ -6,7 +6,8 @@ tags: [jekyll]     # TAG names should always be lowercase
 toc: true
 math: true
 mermaid: true
-pin: true  # pin one or more posts to the top of the home page and the fixed posts are sorted in reverse order according to their release date
+pin: false  # pin one or more posts to the top of the home page and the fixed posts are sorted in reverse order according to their release date
+img_path: /assets/2023/
 ---
 
 ## download project contents
