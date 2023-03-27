@@ -1,7 +1,7 @@
 ---
 title: jekyll_command
 date: 2023-03-26 15:41:12 +0800
-categories: [jekyll, command]
+categories: [ubuntu, jekyll_command]
 tags: [jekyll]     # TAG names should always be lowercase
 toc: true
 math: true
@@ -9,6 +9,8 @@ mermaid: true
 pin: false  # pin one or more posts to the top of the home page and the fixed posts are sorted in reverse order according to their release date
 img_path: /assets/2023/
 ---
+
+Abstract: This post will instruct you how to use [**git**] command, [**bundle**] command to run jekyll project, and push your command to remote masters.&emsp;&emsp;&emsp;&emsp;&emsp;
 
 ## download project contents
 
