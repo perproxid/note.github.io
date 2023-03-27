@@ -11,6 +11,9 @@ img_path: /assets/demo/
 image: Lighthouse 1200_630.png
 ---
 
+Abstract: This post is to show Markdown images rendering on [**Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy/fork), you can also use it as an example of writing.  
+Now, let's start looking at the [**imaging style**].
+
 ## caption & size & shadow
   
 ![the phone number](windows.png){: width="200" height="50" }{: .shadow }
