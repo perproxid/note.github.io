@@ -1,13 +1,15 @@
 ---
 title: ubuntu command
 date: 2023-03-25 23:10:12 +0800
-categories: [ubuntu, command]
+categories: [ubuntu, ubuntu_command]
 tags: [ubuntu]     # TAG names should always be lowercase
 toc: true
 math: true
 mermaid: true
-pin: true  # pin one or more posts to the top of the home page and the fixed posts are sorted in reverse order according to their release date
+pin: false  # pin one or more posts to the top of the home page and the fixed posts are sorted in reverse order according to their release date
 ---
+
+Abstract: This post will instruct you how to use every command for [**ubuntu system**], including files managment, nautilus, system managment, apt command, system update, and so on.&emsp;&emsp;&emsp;&emsp;&emsp;
 
 ## 文件/文件夹管理
 
@@ -83,7 +85,7 @@ pin: true  # pin one or more posts to the top of the home page and the fixed pos
 - 更新完成后重启系统`sudo reboot`  
 - `sudo apt-get install linux-headers-$(uname -r)`安装linux-headers
 
-## apt命令
+## apt & dpkg 命令
 
 `apt-cache search package` 搜索包  
 `apt-cache show package` 获取包的相关信息，如说明、大小、版本等  
@@ -103,6 +105,11 @@ pin: true  # pin one or more posts to the top of the home page and the fixed pos
 `sudo apt-get clean && sudo apt-get autoclean` 清理无用的包  
 `sudo apt-get check` 检查是否有损坏的依赖  
 `sudo apt-get clean` 清理所有软件缓存（即缓存在/var/cache/apt/archives目录里的deb包）
+
+`sudo dpkg -r name` 只是卸载，保留配置  
+`sudo dpkg --remove  name` 只是卸载，保留配置  
+`sudo dpkg -r name` 彻底清除，包括配置  
+`sudo dpkg --purge  name` 彻底清除，包括配置
 
 ## 系统升级
 ```
